@@ -1,0 +1,177 @@
+body {
+    font-family: Sedan, lora, PT Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  *{
+    text-align: center
+  }
+  
+  header {
+    background-color: #090805;
+    color: #1e1502;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+  
+  aside {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Style for the rounded box */
+.rounded-box {
+    border-radius: 80px; /* Adjust the value to change the roundness */
+    padding: 20px;
+    background-color: #f9dd9c; 
+  }
+  
+  /* Style for the heading */
+  .rounded-box h1 {
+    color: #3366ff; /* Change the color as desired */
+  }
+  
+  /* Style for the paragraph */
+  .rounded-box p {
+    color: #ffff6c; /* Change the color as desired */
+  }
+
+  .rounded-box {
+    background-color: rgba(243, 169, 51, 0.5); /* Adjust the alpha value (0.5 in this example) to control transparency */
+    border-radius: 80px; /* Add rounded corners */
+    padding: 20px; /* Add padding for content inside the box */
+  
+  }
+  
+
+
+  li a {
+    display: block;
+    color: rgb(191, 119, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #0f1137f1;
+  }
+
+  #navlist {
+    position: fixed;
+    bottom: 3;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #navlist li {
+    display: inline;
+    margin: 5px 0; /* Add margin between navigation items */
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
+
+  .navigation-container {
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    left: 45%;
+  }
+  
+  #navlist li, #navlist a {
+    height: 44px;
+    display: block;
+  }
+  
+  #home {
+    left: 0px;
+    width: 46px;
+    background: url('img_navsprites.gif') 0 0;
+  }
+  
+  #prev {
+    left: -70px;
+    width: 43px;
+    background: url('img_navsprites.gif') -47px 0;
+  }
+  
+  #next {
+    left: 80px;
+    width: 43px;
+    background: url('img_navsprites.gif') -91px 0;
+  }
+
+  #home a:hover {
+    background: url('img_navsprites_hover.gif') -25px -45px;
+  }
+  
+  #prev a:hover {
+    background: url('img_navsprites_hover.gif') -47px -45px;
+  }
+  
+  #next a:hover {
+    background: url('img_navsprites_hover.gif') -91px -45px;
+  }
+
+
+  .navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navlist li {
+    float: left;
+  }
+  
+  .navlist li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navlist li a:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(7, 7, 7);
+    text-align: center;
+  }
