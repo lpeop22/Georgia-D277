@@ -80,87 +80,63 @@ body {
 
   #navlist {
     position: fixed;
-    bottom: 3;
+    bottom: 6;
     width: 100%;
     padding: 10px 0;
     text-align: center;
   }
   
-  #navlist li {
-    display: inline;
-    margin: 5px 0; /* Add margin between navigation items */
-  }
+ 
   
   #navlist li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: absolute;
-    top: 0;
-  }
+    display: inline-block; /* Display list items horizontally inline */
+    margin: 0 5px; /* Add margin between navigation items */
+}
 
   .navigation-container {
     text-align: center;
     position: absolute;
-    bottom: -60px;
-    left: 45%;
+    bottom: -40px;
+    left: 1%;
   }
   
   #navlist li, #navlist a {
-    height: 44px;
-    display: block;
-  }
-  
-  #home {
-    left: 0px;
-    width: 46px;
-    background: url('img_navsprites.gif') 0 0;
-  }
-  
-  #prev {
-    left: -70px;
-    width: 43px;
-    background: url('img_navsprites.gif') -47px 0;
-  }
-  
-  #next {
-    left: 80px;
-    width: 43px;
-    background: url('img_navsprites.gif') -91px 0;
-  }
-
-  #home a:hover {
-    background: url('img_navsprites_hover.gif') -25px -45px;
-  }
-  
-  #prev a:hover {
-    background: url('img_navsprites_hover.gif') -47px -45px;
-  }
-  
-  #next a:hover {
-    background: url('img_navsprites_hover.gif') -91px -45px;
+    height: 48px; /* Set the height of list items */
+    display: inline-block;
   }
 
 
-  .navlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
+  
+  .bg-prev_icon {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-home_icon {
+  width: 48px; height: 48px;
+  background: url('css_sprites.png') -78px -10px;
+}
+
+.bg-next_icon {
+  width: 48px; height: 48px;
+  background: url('css_sprites.png') -146px -10px;
+}
+
+ 
+ .bg-home_icon a:hover {
+    background: url('css_sprites_hover.png') -25px -45px;
   }
   
-  .navlist li {
-    float: left;
+ .bg-prev_icon a:hover {
+    background: url('css_sprites_hover.png') -47px -45px;
   }
   
-  .navlist li a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+ .bg-next_icon a:hover {
+    background: url('css_sprites_hover.png') -91px -45px;
   }
-  
+
+
   .navlist li a:hover {
     background-color: #ddd;
     color: #000;
