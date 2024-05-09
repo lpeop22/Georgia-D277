@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="atlanta.html">Atlanta</a></li>
+          <li><a href="columbus.html">Columbus</a></li>
+          <li><a href="savannah.html">Savannah</a></li>
+          <li><a href="macon.html">Macon</a></li>
+        </ul>
+      </nav>
+
+<form id="myForm">
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
+  
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+  
+  <label for="confirmEmail">Confirm Email:</label>
+  <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email address" required><br><br>
+  
+  <label for="question">Question:</label><br>
+  <textarea id="question" name="question" rows="4" cols="50" placeholder="Ask your question here"></textarea><br><br>
+  
+  <input type="button" value="Submit">
+</form>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var email = document.getElementById('email');
+      var confirmEmail = document.getElementById('confirmEmail');
+      var submitButton = document.querySelector('input[type="button"]');
+    
+      submitButton.addEventListener('click', function() {
+        if (email.value !== confirmEmail.value) {
+          alert("Emails don't match!");
+          return false;
+        }
+      });
+    });
+    </script>
+
+</body>
+</html>
+  
