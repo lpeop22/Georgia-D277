@@ -86,14 +86,14 @@ table {
 
   /* Style for the rounded box */
 .rounded-box {
-    border-radius: 80px; /* Adjust the value to change the roundness */
+    border-radius: 80px; 
     padding: 20px;
     background-color: #f9dd9c; 
   }
   
   /* Style for the heading */
   .rounded-box h1 {
-    color: #3366ff; /* Change the color as desired */
+    color: #3366ff; 
   }
   
   /* Style for the paragraph */
@@ -103,9 +103,9 @@ table {
   }
 
   .rounded-box {
-    background-color: rgba(243, 169, 51, 0.5); /* Adjust the alpha value (0.5 in this example) to control transparency */
-    border-radius: 80px; /* Add rounded corners */
-    padding: 20px; /* Add padding for content inside the box */
+    background-color: rgba(243, 169, 51, 0.5); 
+    border-radius: 80px;
+    padding: 20px; 
   
   }
   
@@ -134,8 +134,8 @@ table {
  
   
   #navlist li {
-    display: inline-block; /* Display list items horizontally inline */
-    margin: 0 5px; /* Add margin between navigation items */
+    display: inline-block; 
+    margin: 0 5px; 
 }
 
   .navigation-container {
