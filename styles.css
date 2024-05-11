@@ -208,6 +208,16 @@ table {
   .rounded-box p{
     font-size: 20px;
   }
+    #navlist li, #navlist a {
+   
+    display: inline-block;
+  }
+  .navigation-container {
+    text-align: center;
+    position: fixed;
+    bottom: 120px;
+    left: 1%;
+  }
   /* Icon sizes */
   .icon {
     width: 50px;
