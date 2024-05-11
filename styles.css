@@ -6,7 +6,7 @@ body {
   }
 
   *{
-    text-align: center
+    text-align: center;
   }
   
   header {
@@ -17,19 +17,62 @@ body {
   }
   
   section {
-    padding: 1rem;
+  
+      width: 60%;
+      float: left;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      height:600px;
+      overflow-y: auto;
+  }
+   
   }
   
   aside {
     background-color: #fff;
-    padding: 1rem;
-    margin: 1rem;
-    text-align: right;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 40%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 400px;
+    overflow-y: auto;
+    
+  }
+
+  aside {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+  .asideparagraph {
+    font-size: large;
   }
   
   h2 {
     margin-bottom: 0.5rem;
   }
+
+  #table {
+    position: relative;
+    top: 20px;
+    text-align: left;
+    
+   
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
   
   ul {
     list-style: none;
@@ -187,8 +230,8 @@ body {
   }
   .navigation-container {
     text-align: center;
-    position: absolute;
-    bottom: 25px;
+    position: fixed;
+    bottom: 120px;
     left: 1%;
   }
   /* Icon sizes */
@@ -213,8 +256,8 @@ body {
   }
   .navigation-container {
     text-align: center;
-    position: absolute;
-    bottom: -10px;
+    position: fixed;
+    bottom: 110px;
     left: 1%;
   }
   /* Icon sizes */
@@ -239,8 +282,8 @@ body {
   }
   .navigation-container {
     text-align: center;
-    position: absolute;
-    bottom: 4px;
+    position: fixed;
+    bottom: 108px;
     left: 1%;
   }
   /* Icon sizes */
@@ -291,3 +334,6 @@ input[type="button"] {
 input[type="button"]:hover {
   background-color: #8a7f0a;
 }
+
+
+
