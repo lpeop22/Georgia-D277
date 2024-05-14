@@ -9,12 +9,13 @@ body {
     text-align: center;
   }
   
-  header {
-    background-color: #090805;
+   header {
+    background-color: #ffffff;
     color: #1e1502;
-    text-align: center;
+    text-align: left;
     padding: 1rem 0;
   }
+  
   
   section {
   
