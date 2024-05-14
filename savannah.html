@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <h6>
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+    
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="atlanta.html">Atlanta</a>
+                <a href="columbus.html">Columbus</a>
+                <a href="macon.html">Macon</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </h6>
+    
+    <script>
+      function myFunction(x) {
+          x.classList.toggle("change");
+    
+          var dropdown = document.getElementById('myDropdown');
+          dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+      }
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4dab9bb08e.js" crossorigin="anonymous"></script>
@@ -8,15 +35,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <header>
+        <h4>Explore Georgia</h4>
+    </header>
+
+   
     <div style="position: relative; text-align: center;">
     <div style="position: absolute; top: 8%; left: 50%; z-index: 3; transform: translate(-50%, -50%); color: rgb(247, 186, 31); font-size: 45px; font-weight: bold;">SAVANNAH</div>
     <div style="position: relative;">
         <img src="Image/Savannah_Waterfront.jpg" alt="Historic District waterfront of Savannah, Georgia USA at twilight" width="100%" height="400" z-index: -5>
-        <div style="position: absolute; top: 90px; left: 0; z-in background-color: rgba(255, 255, 255, 0.5);">
+        <div style="position: absolute; top: 99px; left: 0; z-in background-color: rgba(255, 255, 255, 0.5);">
     <div class="rounded-box" >
         <p>
-           
-Savannah, Georgia, founded in 1733, is one of America's oldest cities, renowned for its historic charm and scenic beauty. Originally planned as a utopian city by General James Oglethorpe, Savannah thrived as a colonial port and witnessed key events in the Revolutionary and Civil Wars. Today, its cobblestone streets, antebellum architecture, and lush squares enchant visitors, while its coastal location offers stunning riverfront views and marshlands. With its rich history and timeless appeal, Savannah captivates all who visit with its Southern hospitality and picturesque landscapes.
+           Savannah, Georgia, founded in 1733, is one of America's oldest cities, renowned for its historic charm and scenic beauty. 
+           Originally planned as a utopian city by General James Oglethorpe, Savannah thrived as a colonial port and witnessed key events in the Revolutionary and Civil Wars. 
+           Today, its cobblestone streets, antebellum architecture, and lush squares enchant visitors, while its coastal location offers stunning riverfront views and marshlands. 
+           With its rich history and timeless appeal, Savannah captivates all who visit with its Southern hospitality and picturesque landscapes.
         </p>
 
     </div>
@@ -75,26 +110,7 @@ Savannah, Georgia, founded in 1733, is one of America's oldest cities, renowned 
     </ul>
     </div>
 
-    <div style="position: absolute; text-align: right;" >
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="contact.html">Contact</a></li>
-                    </ul>
-            </nav>
-        </aside>
-    </div>
-
-    <div style="position: relative; text-align: right;" >
-        <aside>
-            <nav>
-                <ul>
-                    <li><a href="about.html">About Us</a></li>
-                    </ul>
-            </nav>
-        </aside>
-      </div>
-      
+   
     
 
     <div class="footer">
@@ -103,6 +119,4 @@ Savannah, Georgia, founded in 1733, is one of America's oldest cities, renowned 
 
 </body>
 </html>
-
-
 
