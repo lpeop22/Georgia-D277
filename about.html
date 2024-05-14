@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <h6>
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+    
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="atlanta.html">Atlanta</a>
+                <a href="columbus.html">Columbus</a>
+                <a href="savannah.html">Savannah</a>
+                <a href="macon.html">Macon</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </h6>
+    
+    <script>
+      function myFunction(x) {
+          x.classList.toggle("change");
+    
+          var dropdown = document.getElementById('myDropdown');
+          dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+      }
+    </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+
+    <header>
+        <h4>Explore Georgia</h4>
+    </header>
 
     <nav>
         <ul>
@@ -20,16 +51,13 @@
 
 <h1>About Us</h1>
 
-<p>Welcome to our page dedicated to the fascinating state of Georgia! Here's what you need to know about Georgia:</p>
+<p>Welcome to our website! Here's some information about us:</p>
 
 <ol>
-  <li>Georgia is known as the "Peach State" due to its significant production of peaches.</li>
-  <li>Atlanta, the capital of Georgia, is home to the world's busiest airport, Hartsfield-Jackson Atlanta International Airport.</li>
-  <li>Savannah, one of Georgia's most historic cities, features the largest National Historic Landmark District in the United States.</li>
+  <li>We are a team of passionate individuals dedicated to providing quality content.</li>
+  <li>Our mission is to inspire, educate, and entertain our audience.</li>
+  <li>We strive to create engaging experiences for our users.</li>
 </ol>
-
-<p>Explore our page to learn more about the culture, history, and attractions of Georgia!</p>
-
 
 <p>Visit our social media profiles:</p>
 
